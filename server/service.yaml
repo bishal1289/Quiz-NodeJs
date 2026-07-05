@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-node-app
-  namespace: nodeapp
+  namespace: myapp
 spec:
   selector:
     app: my-node-app
