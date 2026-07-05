@@ -8,10 +8,10 @@ spec:
   source:
     repoURL: https://github.com/bishal1289/Quiz-NodeJs.git
     targetRevision: HEAD
-    path: .
+    path: server
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: myapp
   syncPolicy:
     automated:
       prune: true
